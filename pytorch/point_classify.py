@@ -1,4 +1,4 @@
-
+#有一个二维数据集，目标是根据点的位置将它们分类到两个类别中
 import torch
 import torch.nn as nn
 import torch.optim as optim

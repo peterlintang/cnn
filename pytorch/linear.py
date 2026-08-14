@@ -1,3 +1,4 @@
+#一个简单的示例来详细说明如何使用 PyTorch 实现线性回归模型。
 import torch
 import torch.nn as nn
 import matplotlib.pyplot as plt

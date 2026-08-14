@@ -1,3 +1,4 @@
+#一个简单的 CNN 模型，用于 MNIST 数据集的数字分类
 import torch
 import torch.nn as nn
 import torch.nn.functional as F

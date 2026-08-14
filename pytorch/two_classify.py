@@ -1,3 +1,4 @@
+#一个简单的前馈神经网络，完成一个二分类任务
 import torch
 import torch.nn as nn
 import matplotlib.pyplot as plt
