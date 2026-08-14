@@ -76,3 +76,12 @@ with torch.no_grad():
 
     print("Input sequence: ", ''.join([idx_to_char[i] for i in input_data]))
     print("Predicted sequence: ", ''.join([idx_to_char[i] for i in predicted]))
+
+
+# 可视化损失
+plt.plot(losses, label="Training Loss")
+plt.xlabel("Epoch")
+plt.ylabel("Loss")
+plt.title("RNN Training Loss Over Epochs")
+plt.legend()
+plt.show()
